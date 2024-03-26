@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Team Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Banner Image Section -->
+        <div class="banner-image">
+            <!-- Add your banner image here -->
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Choose your Starter!</h1>
+        <h2>It's five teammates will be decided based off your choice.</h2>
+
+        <main>
+            <div class="container">
+                <h1>Select Your Starter Pokemon</h1>
+                <!-- Starter Pokemon Search Bar -->
+                <input type="text" placeholder="It's dangerous to go alone! Take this..." class="starter-pokemon">
+                <!-- Type Dropdown -->
+                <select class="type-dropdown">
+                    <option value="" disabled selected>Select Type</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+            </div>
+
+            <!-- Body Sections -->
+            <div class="body-sections">
+                <div class="section">
+                    <img src="placeholder.png" alt="Placeholder" width="100" height="100">
+                    <p>Line 1</p>
+                    <p>Line 2</p>
+                    <p>Line 3</p>
+                    <p>Line 4</p>
+                </div>
+                <!-- Repeat this section 5 more times -->
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p class="footer-links">
+                    <a href="#">About</a> | <a href="#">PokeAPI</a> | <a href="#">Check out my GitHub!</a>
+                </p>
+            </div>
+        </footer>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- Requirements
+You must provide the following:
+
+--Pull data from an API that we have provided
+--Utilize GET only
+(Feel free to use Bootstrap, Material, Flexbox, CSS Grid, etc.)
+--Content should be visually appealing
+--The content must be professional and appropriate
+
+--Some styling is required
+
+//Outline//
+Use Pokemon API to make a build a webapp that will create a balanced team based off your starter
+User enters their starter -> This includes the pokemon's type -> from there, a list of five additional pokemon are returned.
+RULES: all five returned must be a different type from both the starter and each other.
+GET https://pokeapi.co/api/v2/pokemon/{id or name}/

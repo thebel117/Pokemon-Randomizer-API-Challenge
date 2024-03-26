@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #89C893;
+}
+
+h2 {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner-image {
+    /* Add banner image later*/
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #fbc204;
+    text-align: center;
+}
+
+.starter-pokemon {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #55A3AB;
+    border-radius: 5px;
+}
+
+.type-dropdown {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #55A3AB;
+    border-radius: 5px;
+}
+
+.body-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section {
+    width: calc(50% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #55A3AB;
+    border-radius: 5px;
+    text-align: center;
+}
+
+footer {
+    background-color: #89C893;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-links {
+    color: #fbc204;
+}
+
