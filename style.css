@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-    font-size: 22pt;
+    font-size: 18pt;
     font-family: monospace;
     position: relative;
     padding-left: 12%;
@@ -33,10 +33,15 @@ h2 {
     /* Add banner image later*/
 /* } */
 
+.main {
+    padding-bottom: 35px;
+}
+
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    padding-bottom: 35px;
     background-color: #89C893;
 }
 
@@ -58,23 +63,6 @@ h2 {
     background-color: #45a049;
 }
 
-
-/* .starter-pokemon {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 2px solid #55A3AB;
-    border-radius: 5px;
-} */
-
-/* .type-dropdown {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 2px solid #55A3AB;
-    border-radius: 5px;
-} */
-
 .body-sections {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -86,23 +74,24 @@ h2 {
     width: calc(50% - 20px);
     padding: 10px;
     padding-bottom: 50px;
-    margin-bottom: 40px;
-    margin-right: 20%;
+    margin: 0 auto;
     border: 12px solid #55A3AB;
     background-color: #b5dce0;
+    background-image: linear-gradient(to bottom, #b5dce0, #70e9f7);
     border-radius: 5px;
     text-align: center;
-    align-items: center;
 }
 
 footer {
     background-color: #fb9004;
-    padding: 10px 0;
+    background-image: linear-gradient(to bottom, #fb9004, rgb(255, 103, 2));
+    padding: 4px 0;
     text-align: center;
     font-family: monospace;
     font-weight: bolder;
     position: fixed;
     bottom: 0;
+    height: 15%;
     width: 100%;
 }
 

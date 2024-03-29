@@ -4,39 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <title>Pokemon Team Generator</title> -->
-    <title>Random Pokémon Team</title>
+    <title>Random Nuzlocke Team</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 <header>
-        <!-- Banner Image Section -->
-    <div class="banner-image">
-        <!-- Add your banner image here -->
+    <!-- <div class="banner-image"> -->
     </div>
 </header>
 
 <main>
     <div class="container">
-        <h1>Random Pokémon Team</h1>
-        <h2>Hit the button to create your new team!</h2>
+        <h1>Pokémon Nuzlocke Team Generator</h1>
+        <h2>Hit the button to create a new team for your run!</h2>
         <button id="generateTeamBtn" class="centerButton">Create me a team!</button>
             <br>
         <ul id="team" class="team-container"></ul>
-
-
         <script src="script.js"></script>
     </div>
 </main>
-
+<br>
+<br>
     <footer>
         <div class="container">
             <p class="footer-links">
                 <a href="#">About</a> | <a href="#">PokeAPI</a> | <a href="#">Check out my GitHub!</a>
             </p>
+            <p>Best of luck, hope they all survive!</p>
         </div>
     </footer>
+
+
 
     </div>
     <script src="script.js"></script>
@@ -48,14 +47,7 @@ You must provide the following:
 
 --Pull data from an API that we have provided
 --Utilize GET only
-(Feel free to use Bootstrap, Material, Flexbox, CSS Grid, etc.)
 --Content should be visually appealing
 --The content must be professional and appropriate
 
---Some styling is required
-
-//Outline//
-Use Pokemon API to make a build a webapp that will create a balanced team based off your starter
-User enters their starter -> This includes the pokemon's type -> from there, a list of five additional pokemon are returned.
-RULES: all five returned must be a different type from both the starter and each other.
 GET https://pokeapi.co/api/v2/pokemon/{id or name}/
