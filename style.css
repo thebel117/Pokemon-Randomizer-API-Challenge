@@ -1,6 +1,6 @@
 .banner {
-    height: 150px;
-    width: 700px;
+    height: 200px;
+    width: 800px;
     margin: 0 auto;
     position: absolute;
     top: 0;
@@ -14,12 +14,14 @@
 
 body {
     background-color: aqua;
-}
-
-body {
-    font-family: monospace;
     margin: 0;
     padding: 0;
+    background-image: url('assets/cool-pokemon-wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif; 
+    font-family: monospace;
     padding-bottom: 50px;
 }
 
@@ -28,7 +30,7 @@ header {
 }
 
 h1 {
-    color: #fff01e;
+    color: #FFCC01;
     margin-top: 200px;
     text-align: center;
     font-family: monospace;
