@@ -31,8 +31,8 @@ async function fetchPokemonTypeData(id) {
     }
 };
 
-// This JavaScript function asynchronously fetches data about a Pokémon's type from the PokeAPI using its ID. 
-// If the fetch operation fails or encounters an error, it logs the error to the console and returns null.
+// Same as above, function fetches data about a Pokémon's type from the PokeAPI using its ID. 
+// If the fetch fails or encounters an error, it logs the error to the console and returns null.
 
 async function generateRandomTeam() {
     const team = [];
