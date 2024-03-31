@@ -9,45 +9,31 @@
 </head>
 
 <body>
-<header>
-    <!-- <div class="banner-image"> -->
-    </div>
-</header>
+    <header>
+        <img class="banner" src="assets/NuzlockeTeamGenBanner.png" alt="Page Banner">
+    </header>
 
-<main>
-    <div class="container">
-        <h1>Pokémon Nuzlocke Team Generator</h1>
-        <h2>Hit the button to create a new team for your run!</h2>
-        <button id="generateTeamBtn" class="centerButton">Create me a team!</button>
+    <main>
+        <div class="container">
+            <h1>Hit the button to get a randomized team!</h1>
+            <button id="generateTeamBtn" class="centerButton">Give me a team!</button>
             <br>
-        <ul id="team" class="team-container"></ul>
-        <script src="script.js"></script>
-    </div>
-</main>
-<br>
-<br>
+            <ul id="team" class="team-container"></ul>
+        </div>
+    </main>
+
     <footer>
         <div class="container">
             <p class="footer-links">
-                <a href="#">About</a> | <a href="#">PokeAPI</a> | <a href="#">Check out my GitHub!</a>
+                <a href="https://bulbapedia.bulbagarden.net/wiki/Nuzlocke_Challenge">What Is A Nuzlocke Run?</a> |
+                <a href="https://pokeapi.co/">PokeAPI</a> |
+                <a href="https://github.com/thebel117">Check out my GitHub!</a> |
+                Best of luck, hope they all survive!
             </p>
-            <p>Best of luck, hope they all survive!</p>
         </div>
     </footer>
 
-
-
-    </div>
     <script src="script.js"></script>
 </body>
+
 </html>
-
-<!-- Requirements
-You must provide the following:
-
---Pull data from an API that we have provided
---Utilize GET only
---Content should be visually appealing
---The content must be professional and appropriate
-
-GET https://pokeapi.co/api/v2/pokemon/{id or name}/
